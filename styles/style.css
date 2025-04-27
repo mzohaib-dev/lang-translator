@@ -186,63 +186,6 @@ body.dark {
   color: var(--light-text-color);
 }
 
-.card-bottom {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 20px;
-  border-top: 2px solid var(--bg-color);
-}
-
-.card-bottom p {
-  margin-bottom: 20px;
-}
-
-.card-bottom label {
-  height: 50px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 0 20px;
-  cursor: pointer;
-  border-radius: 32px;
-  background-color: var(--bg-color);
-}
-
-.card-bottom label:hover {
-  color: var(--primary-text-color);
-  background-color: var(--primary-color);
-}
-
-.card-bottom span {
-  font-size: 15px;
-  pointer-events: none;
-}
-
-.card-bottom ion-icon {
-  font-size: 22px;
-}
-
-.card-bottom button {
-  height: 50px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 0 20px;
-  border-radius: 30px;
-  border: none;
-  outline: none;
-  color: var(--text-color);
-  cursor: pointer;
-  background-color: var(--bg-color);
-}
-
-.card-bottom button:hover {
-  color: var(--primary-text-color);
-  background-color: var(--primary-color);
-}
-
 .container .center {
   position: relative;
 }
